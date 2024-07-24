@@ -1,34 +1,14 @@
 {
-  "items": [
-    {
-      "id": 3,
-      "dia": "qui",
-      "merenda": "",
-      "almoco": ""
-    },
-    {
-      "id": 4,
-      "dia": "qua",
-      "merenda": "",
-      "almoco": ""
-    },
-    {
-      "id": 8,
-      "dia": "sex",
-      "merenda": "ergre",
-      "almoco": "sdfgsdfg"
-    },
-    {
-      "id": 9,
-      "dia": "ter",
-      "merenda": "asdfg",
-      "almoco": "gsdfsdfgfdgasf"
-    },
-    {
-      "id": 10,
-      "dia": "seg",
-      "merenda": "arroz",
-      "almoco": "batata"
-    }
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
